@@ -11,17 +11,16 @@ struct RegisterView: View {
     @StateObject private var dataManager = DataManager()
     @State private var name = ""
     @EnvironmentObject private var user: UserManager
-
     
     var body: some View {
         VStack {
             HStack{
+                Spacer()
                 TextField("Enter your name", text: $name)
                     .multilineTextAlignment(.center)
                 Text(name.length.formatted())
                     .foregroundColor(self.name.length >= 3 ? .green : .red)
-                
-            }.padding(.trailing)
+            }.padding([.leading, .trailing], 20)
             Button(action: registerUser) {
                     HStack {
                         Image(systemName: "checkmark.circle")
@@ -51,12 +50,13 @@ struct RegisterView: View {
     }
 }
 
+extension String {
+    var length: Int { return self.count }
+}
+
 struct RegisterView_Previews: PreviewProvider {
     static var previews: some View {
         RegisterView()
     }
 }
 
-extension String {
-    var length: Int { return self.count }
-}

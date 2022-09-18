@@ -9,9 +9,7 @@ import Combine
 import Foundation
 
 class DataManager: ObservableObject {
-    
-    let objectWillChange = PassthroughSubject<DataManager, Never>()
-    
+
     func saveName(name: String) {
         UserDefaults.standard.set(name, forKey: "name")
     }
