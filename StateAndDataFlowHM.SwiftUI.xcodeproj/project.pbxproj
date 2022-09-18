@@ -11,6 +11,12 @@
 		E07D7EF328D4DF71005B8295 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07D7EF228D4DF71005B8295 /* ContentView.swift */; };
 		E07D7EF528D4DF72005B8295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E07D7EF428D4DF72005B8295 /* Assets.xcassets */; };
 		E07D7EF828D4DF72005B8295 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E07D7EF728D4DF72005B8295 /* Preview Assets.xcassets */; };
+		E08FCDB728D67E5200D1BB5C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08FCDB628D67E5200D1BB5C /* RegisterView.swift */; };
+		E08FCDB928D67E6900D1BB5C /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08FCDB828D67E6900D1BB5C /* StarterView.swift */; };
+		E08FCDBB28D67E9700D1BB5C /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08FCDBA28D67E9700D1BB5C /* TimeCounter.swift */; };
+		E08FCDBD28D67EAC00D1BB5C /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08FCDBC28D67EAC00D1BB5C /* UserManager.swift */; };
+		E08FCDBF28D67FFB00D1BB5C /* ButtonApperiance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08FCDBE28D67FFB00D1BB5C /* ButtonApperiance.swift */; };
+		E08FCDC128D6854200D1BB5C /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08FCDC028D6854200D1BB5C /* DataManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		E07D7EF228D4DF71005B8295 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E07D7EF428D4DF72005B8295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E07D7EF728D4DF72005B8295 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E08FCDB628D67E5200D1BB5C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		E08FCDB828D67E6900D1BB5C /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		E08FCDBA28D67E9700D1BB5C /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		E08FCDBC28D67EAC00D1BB5C /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		E08FCDBE28D67FFB00D1BB5C /* ButtonApperiance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonApperiance.swift; sourceTree = "<group>"; };
+		E08FCDC028D6854200D1BB5C /* DataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				E07D7EF028D4DF71005B8295 /* StateAndDataFlowHM_SwiftUIApp.swift */,
 				E07D7EF228D4DF71005B8295 /* ContentView.swift */,
+				E08FCDB628D67E5200D1BB5C /* RegisterView.swift */,
+				E08FCDB828D67E6900D1BB5C /* StarterView.swift */,
+				E08FCDBA28D67E9700D1BB5C /* TimeCounter.swift */,
+				E08FCDBC28D67EAC00D1BB5C /* UserManager.swift */,
+				E08FCDC028D6854200D1BB5C /* DataManger.swift */,
+				E08FCDBE28D67FFB00D1BB5C /* ButtonApperiance.swift */,
 				E07D7EF428D4DF72005B8295 /* Assets.xcassets */,
 				E07D7EF628D4DF72005B8295 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E08FCDBD28D67EAC00D1BB5C /* UserManager.swift in Sources */,
+				E08FCDB928D67E6900D1BB5C /* StarterView.swift in Sources */,
+				E08FCDB728D67E5200D1BB5C /* RegisterView.swift in Sources */,
 				E07D7EF328D4DF71005B8295 /* ContentView.swift in Sources */,
+				E08FCDBB28D67E9700D1BB5C /* TimeCounter.swift in Sources */,
 				E07D7EF128D4DF71005B8295 /* StateAndDataFlowHM_SwiftUIApp.swift in Sources */,
+				E08FCDBF28D67FFB00D1BB5C /* ButtonApperiance.swift in Sources */,
+				E08FCDC128D6854200D1BB5C /* DataManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

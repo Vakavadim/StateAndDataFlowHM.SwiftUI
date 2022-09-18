@@ -8,10 +8,15 @@
 import SwiftUI
 
 @main
-struct StateAndDataFlowHM_SwiftUIApp: App {
+struct StateAndDataFlowApp: App {
+    @StateObject private var userManager = UserManager()
+//    @StateObject private var dataManager = DataManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StarterView()
+                .environmentObject(userManager)
+//                .environmentObject(dataManager)
         }
     }
 }
